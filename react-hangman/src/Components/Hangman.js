@@ -111,7 +111,7 @@ export default function Hangman(){
             </div>
 
             {outOfGuesses?<p className="gameOver">Game Over!</p>:
-                !hiddenWord.includes("_") && <p>You won!</p>
+                !hiddenWord.includes("_") && <p className="gameOver">You won!</p>
             }
             {outOfGuesses || !hiddenWord.includes("_")? reload() : <></>}
         </>
