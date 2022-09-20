@@ -1,6 +1,8 @@
 # React-Hangman
 ## A personal project!
 
+If you wanna give it a try! Click [Here](https://glinchflash-lol-hangman.netlify.app)
+
 ### mission (personal)
 - learning more about React
 - Understanding React better
@@ -28,5 +30,6 @@
 - Adding a category that requires the use of an api
 - Instead of play again button, have a play again button but also a "choose new category" button.
 - Keep track of which words you already guessed out of a category to see if you can complete it.
+- Making it look good!!!
 
 ---
