@@ -94,7 +94,7 @@ export default function Hangman(){
 
     console.log(solution);
     return(
-        <div>
+        <>
             <>
                 <Figure wrongLetters={wrongGuesses}/>
             </>
@@ -114,7 +114,7 @@ export default function Hangman(){
                 !hiddenWord.includes("_") && <p>You won!</p>
             }
             {outOfGuesses || !hiddenWord.includes("_")? reload() : <></>}
-        </div>
+        </>
 
     )
 }
