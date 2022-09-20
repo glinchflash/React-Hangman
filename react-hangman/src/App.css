@@ -18,15 +18,31 @@ header{
   width: 100vw;
 }
 
+footer{
+  text-align: center;
+  background: black;
+  color: orange;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 10vh;
+  text-wrap: normal;
+  margin-top: 10rem;
+}
+
 body{
   background: gray;
   color: orangered;
+  width: 80vw;
 }
 
 .gameContainer{
   text-align: center;
   margin-top: 15%;
+  margin-left: 20vw;
+  margin-bottom: 5%;
   font-size: xxx-large;
+  height: 50vh;
 }
 
 .playAgain{
@@ -36,6 +52,8 @@ body{
   text-align: center;
   display: flex;
   margin: auto;
+  font-size: xx-large;
+  border-color: orange;
 }
 
 .figure-container{
@@ -67,8 +85,14 @@ h3{
 
 .hiddenword{
   margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 h1,.headertext{
   margin-top: 1rem;
+}
+
+
+.gameOver{
+  margin:0;
 }

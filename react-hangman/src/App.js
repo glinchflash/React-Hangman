@@ -1,7 +1,7 @@
 import './App.css';
 import Hangman from "./Components/Hangman";
 import Header from "./Components/Header";
-
+import Footer from "./Components/Footer";
 
 
 function App() {
@@ -12,6 +12,9 @@ function App() {
                 <div className="gameContainer">
                     <Hangman/>
                 </div>
+            </div>
+            <div>
+                <Footer/>
             </div>
         </>
     );
