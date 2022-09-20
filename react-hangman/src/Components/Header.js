@@ -5,7 +5,7 @@ const Header = () =>{
     return(
         <header>
         <h1>HANGMAN GAME</h1>
-            <p>Guess the blank word!</p>
+            <p className="headertext">Guess the blank word!</p>
         </header>
     )
 }
